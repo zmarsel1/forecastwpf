@@ -1,0 +1,40 @@
+﻿<Window x:Class="Core.ChooseParent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:c="http://schemas.microsoft.com/wpf/2008/toolkit"
+        xmlns:local="clr-namespace:Core"
+        Title="Выберите Документ" Height="396" Width="681" Loaded="Window_Loaded"
+        MinHeight="396" MinWidth="680" FontSize="14">
+    <Window.Resources>
+        <local:DateToColorConverter x:Key="GridColorConverter"/>
+    </Window.Resources>
+    <Grid>
+        <c:DataGrid Name="gridDocuments" Margin="0,0,186,0"
+                    MouseDoubleClick="gridDocuments_MouseDoubleClick"
+                    AutoGenerateColumns="False"
+                    CanUserAddRows="False"
+                    CanUserDeleteRows="False"
+                    IsReadOnly="True"
+                    DataContext="{DynamicResource Documents}"
+                    ItemsSource="{Binding}"
+                    GridLinesVisibility="None">
+            <c:DataGrid.Columns>
+                <c:DataGridTextColumn Header="№ Документа" Width="*" Binding="{Binding DocumentId}"/>
+                <c:DataGridTextColumn Header="Дата Документа" Width="*" Binding="{Binding DocumentDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <c:DataGridTextColumn Header="Объект" Width="*" Binding="{Binding UnitName}"/>
+                <c:DataGridTextColumn Header="Сумма" Width="*" Binding="{Binding Total, StringFormat=0.00}"/>
+                <c:DataGridTextColumn Header="Тип Документа" Width="*" Binding="{Binding DocTypeName}"/>
+            </c:DataGrid.Columns>
+            <c:DataGrid.RowStyle>
+                <Style TargetType="{x:Type c:DataGridRow}">
+                    <Setter Property="Background" Value="{Binding DocumentDate, Converter={StaticResource GridColorConverter}}"/>
+                </Style>
+            </c:DataGrid.RowStyle>
+        </c:DataGrid>
+        <Button Content="Выбрать" HorizontalAlignment="Right" Name="btnChoose" Width="85" Height="27" VerticalAlignment="Bottom" Click="btnChoose_Click" Margin="0,0,6,6" />
+        <Button Content="Закрыть" Height="27" Margin="0,0,95,6" Name="btnClose" VerticalAlignment="Bottom" Click="btnClose_Click" HorizontalAlignment="Right" Width="85" />
+        <Button Content="Поиск" Height="25" HorizontalAlignment="Right" Name="btnSearch" VerticalAlignment="Top" Width="94" Click="btnSearch_Click" Margin="0,171,43,0" />
+        <c:Calendar Name="cldrDate" SelectionMode="SingleRange" DisplayMode="Month" Height="171" VerticalAlignment="Top" HorizontalAlignment="Right" Width="188"></c:Calendar>
+    </Grid>
+</Window>

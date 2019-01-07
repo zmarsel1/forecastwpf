@@ -1,0 +1,5 @@
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\bin\Debug\ForecastConnection.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\bin\Debug\ForecastConnection.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\obj\Debug\ForecastConnection.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\obj\Debug\ForecastConnection.pdb

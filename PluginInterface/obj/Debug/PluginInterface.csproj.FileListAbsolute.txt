@@ -1,0 +1,13 @@
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\PluginInterface.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\PluginInterface.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\PluginInterface.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\PluginInterface.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\EditWindow.g.cs
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\PluginInterface_MarkupCompile.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\PluginInterface_MarkupCompile.lref
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\EditWindow.baml
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\PluginInterface.g.resources
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\EditWindow2.g.cs
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\obj\Debug\EditWindow2.baml

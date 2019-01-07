@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PluginInterface</name>
+    </assembly>
+    <members>
+        <member name="T:PluginInterface.IDocPlugin">
+            <summary>
+            <c>IDocPlugin</c> интерфейс для создания, редактирования и удаления документов
+            </summary>
+        </member>
+        <member name="M:PluginInterface.IDocPlugin.CreateDocument(System.String,System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Метод создаёт документ в базе данных на основе родительского документа.
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата Документа</param>
+            <param name="basedoc">Номер Родительского документа</param>
+        </member>
+        <member name="M:PluginInterface.IDocPlugin.CreateDocument(System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            Метод создаёт документ в базе данных на основе шаблона.
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата Документа</param>
+        </member>
+        <member name="M:PluginInterface.IDocPlugin.EditDocument(System.String,System.Int32)">
+            <summary>
+            Метод вызывает окно редактирования для заданного номера документа.
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="docnum">Номер редактируемого документа</param>
+        </member>
+        <member name="M:PluginInterface.IDocPlugin.DeleteDocument(System.String,System.Int32)">
+            <summary>
+            Удаляет документ по заданному номеру.
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="docnum">Номер удаляемого документа</param>
+        </member>
+        <member name="M:PluginInterface.IDocPlugin.SelectDocuments(System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Метод отбирает документы заданного типа и узла учёта в заданном временном интервале.
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="start">Начальная дата поиска</param>
+            <param name="end">Конечная дата поиска</param>
+        </member>
+        <member name="T:PluginInterface.EditWindow">
+            <summary>
+            Interaction logic for EditWindow.xaml
+            </summary>
+            <summary>
+            EditWindow
+            </summary>
+        </member>
+        <member name="M:PluginInterface.EditWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PluginInterface.Document">
+            <summary>
+            <c>Document</c> класс для хранения, редактриования документа ы плоском виде
+            </summary>
+        </member>
+        <member name="M:PluginInterface.Document.BeginEdit">
+            <summary>
+            Метод переводит документ в состояние редактирования
+            </summary>
+            <returns>Возвращает успешность перехода</returns>
+        </member>
+        <member name="M:PluginInterface.Document.EndEdit">
+            <summary>
+            Метод заканчивает редактирование
+            </summary>
+        </member>
+        <member name="M:PluginInterface.Document.Save">
+            <summary>
+            Метод сохраняет документ
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PluginInterface.Document.Load(System.String,System.Int32)">
+            <summary>
+            Метод загружает документ
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="num">Номер документа</param>
+            <returns>Возвращает успешность загрузки</returns>
+        </member>
+        <member name="P:PluginInterface.Document.IsReadOnly">
+            <summary>
+            Поле указывает можно ли редактировать документ
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.DocumentId">
+            <summary>
+            Поле хранит номер загруженного документа
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.DocInfo">
+            <summary>
+            Поле хранит свойства документа
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.DocTitle">
+            <summary>
+            Поле хранить шапку документа
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.Body">
+            <summary>
+            Поле хранит представление документа
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.Rows">
+            <summary>
+            Поле Хранит нумерацию документа
+            </summary>
+        </member>
+        <member name="P:PluginInterface.Document.Entities">
+            <summary>
+            Поле хранит номенклатуру документа
+            </summary>
+        </member>
+        <member name="T:PluginInterface.EditWindow2">
+            <summary>
+            Interaction logic for EditWindow.xaml
+            </summary>
+            <summary>
+            EditWindow2
+            </summary>
+        </member>
+        <member name="M:PluginInterface.EditWindow2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:PluginInterface.RowToString">
+            <summary>
+            Конвертер. Возвращает по ключу(rowkey) занчение(rowname) для более удобного отображения информации
+            </summary>
+        </member>
+        <member name="T:PluginInterface.DocException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PluginInterface.DBDocumentLocker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PluginInterface.DBDocumentLocker.#ctor">
+            <summary>
+            Конструтор
+            </summary>
+        </member>
+        <member name="M:PluginInterface.DBDocumentLocker.Lock(System.String,System.String)">
+            <summary>
+            Метод создаёт блокировку
+            </summary>
+            <param name="key">ключ блокировки</param>
+            <param name="connection">строка соединения с БД</param>
+            <returns>возвращает успешность операции</returns>
+        </member>
+        <member name="M:PluginInterface.DBDocumentLocker.Unlock">
+            <summary>
+            Метод снимает блокировку
+            </summary>
+        </member>
+        <member name="P:PluginInterface.DBDocumentLocker.Locked">
+            <summary>
+            Поле хранит состояние блокировки
+            </summary>
+        </member>
+        <member name="P:PluginInterface.DBDocumentLocker.Session">
+            <summary>
+            Поле хранит сессию блокировки
+            </summary>
+        </member>
+        <member name="T:PluginInterface.CrossDocument">
+            <summary>
+            <c>CrossDocument</c> класс для представления документа в виде Кросс-таблицы
+            </summary>
+        </member>
+        <member name="M:PluginInterface.CrossDocument.Save">
+            <summary>
+            Метод сохраняет документ
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PluginInterface.CrossDocument.Load(System.String,System.Int32)">
+            <summary>
+            Метод загружает документ
+            </summary>
+            <param name="connection">Строка соединения с базой данных</param>
+            <param name="num">Номер документа</param>
+            <returns>возварщает успешность загрузки документа.</returns>
+        </member>
+        <member name="P:PluginInterface.CrossDocument.Body">
+            <summary>
+            Представление тела документа
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

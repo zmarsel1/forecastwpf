@@ -1,0 +1,17 @@
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ZoneEditor.Properties.Resources.resources
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ZoneEditor.ZoneEditor.resources
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\ZoneEditor.exe
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\ZoneEditor.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\PluginInterface.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\WPFToolkit.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\PluginInterface.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ZoneEditor.exe
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ZoneEditor.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\bin\Debug\ZoneEditor.exe.config
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\ZoneEditor.exe.config
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\ZoneEditor.exe
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\ZoneEditor.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ZoneEditor\obj\x86\Debug\ZoneEditor.Config.resources

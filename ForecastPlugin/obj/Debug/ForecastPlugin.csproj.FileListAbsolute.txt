@@ -1,0 +1,5 @@
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\ForecastPlugin.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\ForecastPlugin.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\obj\Debug\ForecastPlugin.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\obj\Debug\ForecastPlugin.pdb

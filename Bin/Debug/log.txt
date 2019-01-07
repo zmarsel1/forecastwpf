@@ -1,0 +1,975 @@
+2011-02-09 16:05:33.0937|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 607
+2011-02-15 14:25:10.0312|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 895
+2011-02-15 14:25:20.4375|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_production.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в PluginInterface.EditWindow..ctor(Document document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow.xaml.cs:строка 37
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 967
+2011-02-15 14:25:44.6718|ERROR|Core.MainWindow|Ошибка при нажатиий btnEdit_production.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в PluginInterface.EditWindow..ctor(Document document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow.xaml.cs:строка 37
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 68
+   в Core.MainWindow.btnEdit_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 792
+2011-02-15 14:27:47.1562|ERROR|Core.MainWindow|Ошибка при нажатиий btnEdit_production.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в PluginInterface.EditWindow..ctor(Document document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow.xaml.cs:строка 37
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 68
+   в Core.MainWindow.btnEdit_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 792
+2011-02-15 14:32:19.0468|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 895
+2011-02-16 13:14:04.1718|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 763
+2011-02-16 13:18:21.6406|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 763
+2011-02-16 13:41:44.6406|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 764
+2011-02-16 13:51:39.9531|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew_production.
+System.InvalidOperationException: DialogResult можно задать только после создания Window и его отображения как диалогового окна.
+   в System.Windows.Window.set_DialogResult(Nullable`1 value)
+   в Core.CreateDocument..ctor(String tab) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 38
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 765
+2011-02-16 13:51:42.3437|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew_production.
+System.InvalidOperationException: DialogResult можно задать только после создания Window и его отображения как диалогового окна.
+   в System.Windows.Window.set_DialogResult(Nullable`1 value)
+   в Core.CreateDocument..ctor(String tab) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 38
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 765
+2011-02-16 13:51:44.0625|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew_production.
+System.InvalidOperationException: DialogResult можно задать только после создания Window и его отображения как диалогового окна.
+   в System.Windows.Window.set_DialogResult(Nullable`1 value)
+   в Core.CreateDocument..ctor(String tab) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 38
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 765
+2011-02-16 15:53:51.1562|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'RowId', table 'forecast2.dbo.DocBody'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin2.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-02-16 15:58:38.1875|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Violation of UNIQUE KEY constraint 'U_Document'. Cannot insert duplicate key in object 'dbo.DocHead'.
+Error occured "2627" while document head inserting.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin2.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-02-16 16:03:51.5781|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Violation of UNIQUE KEY constraint 'U_Document'. Cannot insert duplicate key in object 'dbo.DocHead'.
+Error occured "2627" while document head inserting.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin2.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-02-16 16:05:05.0156|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Violation of UNIQUE KEY constraint 'U_Document'. Cannot insert duplicate key in object 'dbo.DocHead'.
+Error occured "2627" while document head inserting.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin2.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-02-16 16:05:47.7812|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew_devices.
+System.InvalidOperationException: Привязка типа TwoWay или OneWayToSource не может работать с доступным только для чтения свойством "DocumentId" типа "System.Data.DataRowView".
+   в MS.Internal.Data.PropertyPathWorker.CheckReadOnly(Object item, Object info)
+   в MS.Internal.Data.PropertyPathWorker.ReplaceItem(Int32 k, Object newO, Object parent)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.AttachToRootItem(Object rootItem)
+   в MS.Internal.Data.ClrBindingWorker.AttachDataItem()
+   в System.Windows.Data.BindingExpression.Activate(Object item)
+   в System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   в System.Windows.Data.BindingExpression.MS.Internal.Data.IDataBindEngineClient.AttachToContext(Boolean lastChance)
+   в MS.Internal.Data.DataBindEngine.Task.Run(Boolean lastChance)
+   в MS.Internal.Data.DataBindEngine.Run(Object arg)
+   в MS.Internal.Data.DataBindEngine.OnLayoutUpdated(Object sender, EventArgs e)
+   в System.Windows.ContextLayoutManager.fireLayoutUpdateEvent()
+   в System.Windows.ContextLayoutManager.UpdateLayout()
+   в System.Windows.ContextLayoutManager.UpdateLayoutCallback(Object arg)
+   в System.Windows.Media.MediaContext.InvokeOnRenderCallback.DoWork()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 787
+2011-02-16 16:06:29.9843|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.InvalidOperationException: Привязка типа TwoWay или OneWayToSource не может работать с доступным только для чтения свойством "DocumentId" типа "System.Data.DataRowView".
+   в MS.Internal.Data.PropertyPathWorker.CheckReadOnly(Object item, Object info)
+   в MS.Internal.Data.PropertyPathWorker.ReplaceItem(Int32 k, Object newO, Object parent)
+   в MS.Internal.Data.PropertyPathWorker.UpdateSourceValueState(Int32 k, ICollectionView collectionView, Object newValue, Boolean isASubPropertyChange)
+   в MS.Internal.Data.PropertyPathWorker.AttachToRootItem(Object rootItem)
+   в MS.Internal.Data.ClrBindingWorker.AttachDataItem()
+   в System.Windows.Data.BindingExpression.Activate(Object item)
+   в System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   в System.Windows.Data.BindingExpression.MS.Internal.Data.IDataBindEngineClient.AttachToContext(Boolean lastChance)
+   в MS.Internal.Data.DataBindEngine.Task.Run(Boolean lastChance)
+   в MS.Internal.Data.DataBindEngine.Run(Object arg)
+   в MS.Internal.Data.DataBindEngine.OnLayoutUpdated(Object sender, EventArgs e)
+   в System.Windows.ContextLayoutManager.fireLayoutUpdateEvent()
+   в System.Windows.ContextLayoutManager.UpdateLayout()
+   в System.Windows.ContextLayoutManager.UpdateLayoutCallback(Object arg)
+   в System.Windows.Media.MediaContext.InvokeOnRenderCallback.DoWork()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 987
+2011-02-16 16:09:22.6093|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+PluginInterface.DocException: Не удалось открыть документ для редактирования.
+   в BasePlugin2.EditWindow..ctor(CrossDocument document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\EditWindow.xaml.cs:строка 38
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-02-17 11:24:07.5711|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.Data.EvaluateException: Не удается найти столбец [EntityData].
+   в System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   в System.Data.DataExpression.Bind(DataTable table)
+   в System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   в System.Data.DataTable.Compute(String expression, String filter)
+   в PluginInterface.EditWindow..ctor(Document document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow.xaml.cs:строка 39
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-02-17 11:24:11.0711|ERROR|Core.MainWindow|Ошибка при нажатиий btnEdit_devices.
+System.Data.EvaluateException: Не удается найти столбец [EntityData].
+   в System.Data.AggregateNode.Bind(DataTable table, List`1 list)
+   в System.Data.DataExpression.Bind(DataTable table)
+   в System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   в System.Data.DataTable.Compute(String expression, String filter)
+   в PluginInterface.EditWindow..ctor(Document document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow.xaml.cs:строка 39
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.btnEdit_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 816
+2011-02-17 12:57:08.0555|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: culture
+   в System.Windows.Media.FormattedText..ctor(String textToFormat, CultureInfo culture, FlowDirection flowDirection, Typeface typeface, Double emSize, Brush foreground, NumberSubstitution numberSubstitution)
+   в System.Windows.Media.FormattedText..ctor(String textToFormat, CultureInfo culture, FlowDirection flowDirection, Typeface typeface, Double emSize, Brush foreground)
+   в PluginInterface.EditWindow2.Window_Loaded(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 97
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.BroadcastEventHelper.BroadcastEvent(DependencyObject root, RoutedEvent routedEvent)
+   в System.Windows.BroadcastEventHelper.BroadcastLoadedEvent(Object root)
+   в MS.Internal.LoadedOrUnloadedOperation.DoWork()
+   в System.Windows.Media.MediaContext.FireLoadedPendingCallbacks()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 987
+2011-02-17 12:57:34.3211|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.ArgumentNullException: Значение не может быть неопределенным.
+Имя параметра: culture
+   в System.Windows.Media.FormattedText..ctor(String textToFormat, CultureInfo culture, FlowDirection flowDirection, Typeface typeface, Double emSize, Brush foreground, NumberSubstitution numberSubstitution)
+   в System.Windows.Media.FormattedText..ctor(String textToFormat, CultureInfo culture, FlowDirection flowDirection, Typeface typeface, Double emSize, Brush foreground)
+   в PluginInterface.EditWindow2.Window_Loaded(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 97
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.BroadcastEventHelper.BroadcastEvent(DependencyObject root, RoutedEvent routedEvent)
+   в System.Windows.BroadcastEventHelper.BroadcastLoadedEvent(Object root)
+   в MS.Internal.LoadedOrUnloadedOperation.DoWork()
+   в System.Windows.Media.MediaContext.FireLoadedPendingCallbacks()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 987
+2011-02-17 13:44:29.4461|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.ArgumentOutOfRangeException: Значение StartIndex не может быть меньше нуля.
+Имя параметра: startIndex
+   в System.String.Remove(Int32 startIndex, Int32 count)
+   в PluginInterface.EditWindow2.FormatHeaderCaption(String caption, Double width) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 120
+   в PluginInterface.EditWindow2.Window_Loaded(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 98
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.BroadcastEventHelper.BroadcastEvent(DependencyObject root, RoutedEvent routedEvent)
+   в System.Windows.BroadcastEventHelper.BroadcastLoadedEvent(Object root)
+   в MS.Internal.LoadedOrUnloadedOperation.DoWork()
+   в System.Windows.Media.MediaContext.FireLoadedPendingCallbacks()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 987
+2011-02-17 13:45:22.1649|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+System.ArgumentOutOfRangeException: Значение StartIndex не может быть меньше нуля.
+Имя параметра: startIndex
+   в System.String.Remove(Int32 startIndex, Int32 count)
+   в PluginInterface.EditWindow2.FormatHeaderCaption(String caption, Double width) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 120
+   в PluginInterface.EditWindow2.Window_Loaded(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 98
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.BroadcastEventHelper.BroadcastEvent(DependencyObject root, RoutedEvent routedEvent)
+   в System.Windows.BroadcastEventHelper.BroadcastLoadedEvent(Object root)
+   в MS.Internal.LoadedOrUnloadedOperation.DoWork()
+   в System.Windows.Media.MediaContext.FireLoadedPendingCallbacks()
+   в System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()
+   в System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.RenderMessageHandler(Object resizedCompositionTarget)
+   в System.Windows.Media.MediaContext.Resize(ICompositionTarget resizedCompositionTarget)
+   в System.Windows.Interop.HwndTarget.OnResize()
+   в System.Windows.Interop.HwndTarget.HandleMessage(Int32 msg, IntPtr wparam, IntPtr lparam)
+   в System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 987
+2011-02-17 15:11:35.9461|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+PluginInterface.DocException: Не удалось открыть документ для редактирования.
+   в PluginInterface.EditWindow2..ctor(CrossDocument document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 38
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-02-17 15:12:34.2742|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+PluginInterface.DocException: Не удалось открыть документ для редактирования.
+   в PluginInterface.EditWindow2..ctor(CrossDocument document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 38
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-02-17 15:15:00.7274|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_devices.
+PluginInterface.DocException: Не удалось открыть документ для редактирования.
+   в PluginInterface.EditWindow2..ctor(CrossDocument document) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\EditWindow2.xaml.cs:строка 38
+   в BasePlugin2.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin2\Plugin.cs:строка 68
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-02-24 10:39:09.7187|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-02-24 10:39:10.6406|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-02-24 11:04:07.2187|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'EntityId', table 'forecast.dbo.DocBody'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-02-24 11:08:50.3951|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Data.SqlClient.SqlException: Violation of UNIQUE KEY constraint 'U_Document'. Cannot insert duplicate key in object 'dbo.DocHead'.
+Error occured "2627" while document head inserting.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в BasePlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 58
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 89
+2011-03-01 14:50:05.1718|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_production.
+System.Data.SqlClient.SqlException: Invalid column name 'RowKey'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в PluginInterface.Document.Load(String connection, Int32 num) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\Document.cs:строка 165
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 67
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-03-01 14:50:07.0781|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_production.
+System.Data.SqlClient.SqlException: Invalid column name 'RowKey'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в PluginInterface.Document.Load(String connection, Int32 num) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\Document.cs:строка 165
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 67
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-03-01 14:50:08.6406|ERROR|Core.MainWindow|Ошибка при нажатиий gridData_production.
+System.Data.SqlClient.SqlException: Invalid column name 'RowKey'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в PluginInterface.Document.Load(String connection, Int32 num) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\Document.cs:строка 165
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 67
+   в Core.MainWindow.gridData_MouseDoubleClick(Object sender, MouseButtonEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 986
+2011-03-01 14:50:10.7656|ERROR|Core.MainWindow|Ошибка при нажатиий btnEdit_production.
+System.Data.SqlClient.SqlException: Invalid column name 'RowKey'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в PluginInterface.Document.Load(String connection, Int32 num) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\PluginInterface\Document.cs:строка 165
+   в BasePlugin.Plugin.EditDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\Plugin.cs:строка 67
+   в Core.MainWindow.btnEdit_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 816
+2011-03-04 09:41:05.1406|ERROR|Core.MainWindow|Ошибка при нажатиий btnNew_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   в Core.ChooseParent.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\ChooseParent.xaml.cs:строка 58
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   в System.Windows.Controls.Button.OnClick()
+   в System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   в System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   в System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   в System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   в System.Windows.UIElement.CrackMouseButtonEventAndReRaiseEvent(DependencyObject sender, MouseButtonEventArgs e)
+   в System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   в System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   в System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   в System.Windows.Input.InputManager.ProcessStagingArea()
+   в System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   в System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   в System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   в System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   в System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   в System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в System.Windows.Window.ShowDialog()
+   в Core.CreateDocument.btnAssociated_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 64
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   в System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   в System.Windows.Controls.Button.OnClick()
+   в System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   в System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   в System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   в System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   в System.Windows.UIElement.CrackMouseButtonEventAndReRaiseEvent(DependencyObject sender, MouseButtonEventArgs e)
+   в System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   в System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   в System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   в System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   в System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   в System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   в System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   в System.Windows.Input.InputManager.ProcessStagingArea()
+   в System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   в System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   в System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   в System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.WrappedInvoke(Delegate callback, Object args, Boolean isSingleParameter, Delegate catchHandler)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Boolean isSingleParameter)
+   в System.Windows.Threading.Dispatcher.Invoke(DispatcherPriority priority, Delegate method, Object arg)
+   в MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   в MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   в System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   в System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   в System.Windows.Window.ShowHelper(Object booleanBox)
+   в System.Windows.Window.Show()
+   в System.Windows.Window.ShowDialog()
+   в Core.MainWindow.btnNew_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 780
+2011-03-04 10:04:48.2968|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch.
+System.NullReferenceException: В экземпляре объекта не задана ссылка на объект.
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 919
+2011-03-04 13:29:13.4843|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_production.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:29:14.5156|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_production.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:50:57.7343|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:50:59.6562|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:50:59.9375|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:00.1406|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:00.3437|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:00.5625|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:00.7656|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:00.9687|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:01.1562|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:01.3593|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:01.5468|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-04 13:51:01.7656|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-21 13:22:11.4687|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.Data.SqlClient.SqlException: Invalid column name 'ActiontDate'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1112
+2011-03-21 13:22:14.1875|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.Data.SqlClient.SqlException: Invalid column name 'ActiontDate'.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1112
+2011-03-21 13:27:56.3906|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:30:38.6250|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:34:46.2500|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:40:25.4218|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:40:25.8750|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:40:26.0937|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:40:26.2968|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:40:26.4687|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 13:51:09.2968|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:01:30.6250|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:05:43.9375|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:07:33.1875|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:07:44.6875|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:07:46.0468|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 14:22:02.2031|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1105
+2011-03-21 15:56:29.4843|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1107
+2011-03-21 16:02:53.9843|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1107
+2011-03-21 16:04:42.2968|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1107
+2011-03-21 16:05:45.9843|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1107
+2011-03-22 07:58:15.7968|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю прав.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitTabs() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 155
+2011-03-22 07:58:15.8906|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю отчётов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitReports() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 246
+2011-03-22 07:58:15.8906|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю отчётов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitAssosiatedDocs() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 103
+2011-03-22 07:58:16.0312|FATAL|Core.PluginManager|Ошибка загрузки списка плагинов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.PluginManager.LoadPlugins(String connection) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\PluginManager.cs:строка 48
+2011-03-22 07:58:34.2656|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1107
+2011-03-22 07:58:50.3906|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1113
+2011-03-22 07:59:13.6406|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю прав.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitTabs() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 155
+2011-03-22 07:59:13.6718|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю отчётов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitReports() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 246
+2011-03-22 07:59:13.6875|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю отчётов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitAssosiatedDocs() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 103
+2011-03-22 07:59:13.7343|FATAL|Core.PluginManager|Ошибка загрузки списка плагинов.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Сделана попытка выполнить операцию на сокете для недоступного хоста.)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.PluginManager.LoadPlugins(String connection) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\PluginManager.cs:строка 48
+2011-03-22 10:08:35.5625|ERROR|Core.MainWindow|Ошибка при нажатиий .
+System.Data.SqlClient.SqlException: Error occured while document deleting. Access denied
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в ForecastPlugin.Plugin.DeleteDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 79
+   в Core.MainWindow.btnDelete_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 982
+2011-03-22 10:08:53.2812|ERROR|Core.MainWindow|Ошибка при нажатиий .
+System.Data.SqlClient.SqlException: Error occured while document deleting. Access denied
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в ForecastPlugin.Plugin.DeleteDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 79
+   в Core.MainWindow.btnDelete_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 982
+2011-03-22 10:10:02.2031|ERROR|Core.MainWindow|Ошибка при нажатиий .
+System.Data.SqlClient.SqlException: Error occured while document deleting. Access denied
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в ForecastPlugin.Plugin.DeleteDocument(String connection, Int32 docnum) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 79
+   в Core.MainWindow.btnDelete_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 982
+2011-03-22 10:41:52.6562|FATAL|Core.CoreConfig|Ошибка запроса доступных пользователю прав.
+ Exception: System.Data.SqlClient.SqlException: При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик TCP, error: 0 - Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   в System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   в System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   в System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Core.CoreConfig.InitTabs() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\helpers\CoreConfig.cs:строка 159
+2011-03-23 08:54:26.2343|ERROR|Core.CreateDocument|Ошибка создания документа.
+ForecastConnection.FException: не удалось установить соединение. ---> System.Net.Sockets.SocketException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 127.0.0.1:10010
+   в System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   в System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   в ForecastConnection.FConnection.Open() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\FConnection.cs:строка 46
+   --- Конец трассировки внутреннего стека исключений ---
+   в ForecastConnection.FConnection.Open() в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\FocrecastConnection\FConnection.cs:строка 52
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 26
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 08:55:17.0000|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза. при формировании документа возникла ошибка:
+?????? ???????? ????????.
+error : ???????? ??? ??????????.
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 08:56:51.4062|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза. при формировании документа возникла ошибка:
+?????? ???????? ????????.
+error : ???????? ??? ??????????.
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 08:58:14.3593|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза. при формировании документа возникла ошибка:
+Ошибка создания прогноза.
+error : Документ уже существует.
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 08:59:51.5156|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза.
+Ошибка : Документ уже существует.
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 09:14:06.1406|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза.
+Ошибка : expected string or buffer
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 09:16:17.3593|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception: Ошибка создания прогноза.
+Ошибка : expected string or buffer
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95
+2011-03-23 09:40:36.2812|ERROR|Core.CreateDocument|Ошибка создания документа.
+System.Exception
+   в ForecastPlugin.Plugin.CreateDocument(String connection, String type, String obj, DateTime date) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\ForecastPlugin\ForecastPlugin.cs:строка 33
+   в Core.CreateDocument.btnCreate_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\CreateDocument.xaml.cs:строка 95

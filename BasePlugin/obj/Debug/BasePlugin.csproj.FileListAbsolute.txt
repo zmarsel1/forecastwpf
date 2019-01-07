@@ -1,0 +1,8 @@
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\BasePlugin.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\bin\Debug\BasePlugin.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\BasePlugin.dll
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\BasePlugin.pdb
+C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\BasePlugin\obj\Debug\Documents.Properties.Resources.resources

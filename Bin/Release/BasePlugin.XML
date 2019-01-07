@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasePlugin</name>
+    </assembly>
+    <members>
+        <member name="T:Documents.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Documents.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Documents.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="T:BasePlugin.Plugin">
+            <summary>
+            <c>Plugin</c> класс для создания редактрования и удаления документов.
+            </summary>
+        </member>
+        <member name="M:BasePlugin.Plugin.CreateDocument(System.String,System.String,System.String,System.DateTime,System.Int32)">
+            <summary>CreateDocument Метод класса Plugin.
+            <para>Метод создаёт документ в базе данных на основе родительского документа.</para>
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата Документа</param>
+            <param name="basedoc">Номер Родительского документа</param>
+        </member>
+        <member name="M:BasePlugin.Plugin.CreateDocument(System.String,System.String,System.String,System.DateTime)">
+            <summary>CreateDocument метод класса Plugin.
+            <para>Метод создаёт документ в базе данных на основе шаблона.</para>
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата Документа</param>
+        </member>
+        <member name="M:BasePlugin.Plugin.EditDocument(System.String,System.Int32)">
+            <summary>EditDocument метод класса Plugin.
+            <para>Метод вызывает окно редактирования для заданного номера документа.</para>
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="docnum">Номер редактируемого документа</param>
+        </member>
+        <member name="M:BasePlugin.Plugin.DeleteDocument(System.String,System.Int32)">
+            <summary>DeleteDocument метод класса Plugin.
+            <para>Удаляет документ по заданному номеру</para>
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="docnum">Номер удаляемого документа</param>
+        </member>
+        <member name="M:BasePlugin.Plugin.SelectDocuments(System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>SelectDocuments  метод класса Plugin.
+            <para>Метод отбирает документы заданного типа и узла учёта в заданном временном интервале.</para>
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="start">Начальная дата поиска</param>
+            <param name="end">Конечная дата поиска</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForecastPlugin</name>
+    </assembly>
+    <members>
+        <member name="T:ForecastPlugin.Plugin">
+            <summary>
+            Класс для создания, удаления прогнозов
+            </summary>
+        </member>
+        <member name="M:ForecastPlugin.Plugin.CreateDocument(System.String,System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Метод создаёт прогноз по заданному узлу на заданную дату. Метод не реализован.
+            </summary>
+            <param name="connection">строка соединения Сервером Прогнозов</param>
+            <param name="type">Тип прогноза</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата прогноза</param>
+            <param name="basedoc">Родительский документа</param>
+            <returns>Возвращает номер документа в виде <c>int</c></returns>
+        </member>
+        <member name="M:ForecastPlugin.Plugin.CreateDocument(System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            Метод создаёт прогноз по заданному узлу на заданную дату.
+            </summary>
+            <param name="connection">строка соединения Сервером Прогнозов</param>
+            <param name="type">Тип прогноза</param>
+            <param name="obj">Узел учёта</param>
+            <param name="date">Дата прогноза</param>
+            <returns>Возвращает номер документа в виде <c>int</c></returns>
+        </member>
+        <member name="M:ForecastPlugin.Plugin.EditDocument(System.String,System.Int32)">
+            <summary>
+            Вызывает окно для просмотра и редактирования(если достаточно прав) Прогноза
+            </summary>
+            <param name="connection">строка соединения Сервером Прогнозов</param>
+            <param name="docnum">номер документа для просмотра</param>
+            <returns>возвращает окно для просмотра(редатирования)</returns>
+        </member>
+        <member name="M:ForecastPlugin.Plugin.DeleteDocument(System.String,System.Int32)">
+            <summary>
+            Метод для удаления прогноза
+            </summary>
+            <param name="connection">строка соединения Сервером Прогнозов</param>
+            <param name="docnum">номер документа для удаления</param>
+        </member>
+        <member name="M:ForecastPlugin.Plugin.SelectDocuments(System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Метод отбирает документы заданного типа на заданный промежуток времени
+            </summary>
+            <param name="connection">строка соединения Сервером Прогнозов</param>
+            <param name="type">Тип документа</param>
+            <param name="obj">Узел учёта</param>
+            <param name="start">Начальная дата поиска</param>
+            <param name="end">Конечная дата поиска</param>
+            <returns>Список в виде <c>DataTable</c>, отобранных документов</returns>
+        </member>
+    </members>
+</doc>

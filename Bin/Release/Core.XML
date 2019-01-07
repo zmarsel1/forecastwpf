@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core</name>
+    </assembly>
+    <members>
+        <member name="T:Core.CreateDocument">
+            <summary>
+            Interaction logic for CreateDocument.xaml
+            </summary>
+            <summary>
+            CreateDocument
+            </summary>
+        </member>
+        <member name="M:Core.CreateDocument.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Core.ConfigWindow">
+            <summary>
+            Interaction logic for ConfigWindow.xaml
+            </summary>
+            <summary>
+            ConfigWindow
+            </summary>
+        </member>
+        <member name="M:Core.ConfigWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Core.ChooseParent">
+            <summary>
+            Interaction logic for ChooseParent.xaml
+            </summary>
+            <summary>
+            ChooseParent
+            </summary>
+        </member>
+        <member name="M:Core.ChooseParent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Core.CoreConfig">
+            <summary>
+            <c>CoreConfig</c> клас хранит глобальные настройки программы
+            </summary>
+        </member>
+        <member name="M:Core.CoreConfig.Initialize">
+            <summary>
+            Инициализация настроек приложения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Core.CoreConfig.Instance">
+            <summary>
+            Возвращает глобальный экземпляр <c>CoreConfig</c>
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.ConnectionString">
+            <summary>
+            Поле, хранит строку соединение с БД
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.ReportServer">
+            <summary>
+            Поле, хранит адресс сервера отчетов
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.ReportUser">
+            <summary>
+            Поле, хранит имя пользователя сервера отчетов
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.ReportPassword">
+            <summary>
+            Поле, хранит пароль сревера отчетов
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.ForecastServer">
+            <summary>
+            Поле, хранит адресс сервера прогнозов
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Tabs">
+            <summary>
+            Поле, хранит вкладки доступные пользователю, в виде пары ключ-значение
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Docs">
+            <summary>
+            Поле, хранит словарь доступных типов документов
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Units">
+            <summary>
+            Поле, хранит узлы учёта, доступные пользователю
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Icons">
+            <summary>
+            Поле, хранит словарь иконок
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Permissions">
+            <summary>
+            Поле, хранит права доступа пользователя, в виде XML-документа
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.Reports">
+            <summary>
+            Поле, хранит доступные отчеты, в виде XML-документа
+            </summary>
+        </member>
+        <member name="P:Core.CoreConfig.AssosiatedDocs">
+            <summary>
+            Поле, хранит типы связанных документов, в виде XML-документа
+            </summary>
+        </member>
+        <member name="T:Core.PluginManager">
+            <summary>
+            класс <c>PluginManager</c> отвечает за згруженные плагины
+            </summary>
+        </member>
+        <member name="M:Core.PluginManager.LoadPlugins(System.String)">
+            <summary>
+            Метод загружает плагины
+            </summary>
+            <param name="connection">Строка соединения с БД</param>
+            <returns>Возвращает успешность выполнения метода</returns>
+        </member>
+        <member name="P:Core.PluginManager.Instance">
+            <summary>
+            Возвращает глобальный экземпляр <c>PluginManager</c>
+            </summary>
+        </member>
+        <member name="P:Core.PluginManager.Plugins">
+            <summary>
+            Поле хранит словарь плагинов
+            </summary>
+        </member>
+        <member name="T:Core.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Core.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Core.UIHelper.TryFindParent``1(System.Windows.DependencyObject)">
+            <summary>
+            Finds a parent of a given item on the visual tree.
+            </summary>
+            <typeparam name="T">The type of the queried item.</typeparam>
+            <param name="child">A direct or indirect child of the
+            queried item.</param>
+            <returns>The first parent item that matches the submitted
+            type parameter. If not matching item can be found, a null
+            reference is being returned.</returns>
+        </member>
+        <member name="M:Core.UIHelper.GetParentObject(System.Windows.DependencyObject)">
+            <summary>
+            This method is an alternative to WPF's
+            <see cref="M:System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)"/> method, which also
+            supports content elements. Do note, that for content element,
+            this method falls back to the logical tree of the element!
+            </summary>
+            <param name="child">The item to be processed.</param>
+            <returns>The submitted item's parent, if available. Otherwise
+            null.</returns>
+        </member>
+        <member name="T:Core.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Core.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Core.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="F:Core.ReportWnd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Core.ReportWnd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Core.ReportWnd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Core.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Core.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Core.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Core.Cryptography">
+            <summary>
+            класс шифрует и дешифрует заданное значение
+            </summary>
+        </member>
+        <member name="M:Core.Cryptography.Encrypt(System.String,System.String)">
+            <summary>
+            Шифрует сообщение заданным ключём
+            </summary>
+            <param name="key">Ключ шифрования</param>
+            <param name="source">Шифруемое сообщение</param>
+            <returns>Возвращает зашифрованное сообщение</returns>
+            <example>
+            <code>
+            string source ="testmessage"
+            srring key = "key"
+            string encrypted = Cryptography.Encrypt(key, source);
+            </code>
+            </example>
+        </member>
+        <member name="M:Core.Cryptography.Decrypt(System.String,System.String)">
+            <summary>
+            Расшифровывает сообщение заданным ключём
+            </summary>
+            <param name="key">Ключ шифрования</param>
+            <param name="source">Сообщение для расшифровки</param>
+            <returns>Возвращает расшифрованное сообщение</returns>
+            <example>
+            <code>
+            string source ="testmessage"
+            srring key = "key"
+            string encrypted = Cryptography.Encrypt(key, source);
+            string decrypted = Cryptography.Encrypt(key, encrypted);
+            </code>
+            </example>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

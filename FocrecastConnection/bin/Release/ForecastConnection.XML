@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForecastConnection</name>
+    </assembly>
+    <members>
+        <member name="T:ForecastConnection.FException">
+            <summary>
+            <c>FException</c> исключение выбрасываемое <c>FCommand</c> и <c>FConnection</c>
+            </summary>
+        </member>
+        <member name="T:ForecastConnection.FCommand">
+            <summary>
+             Класс <c>FCommand</c> предназначен для передачи комманды на Сервер Прогнозирования
+            </summary>
+        </member>
+        <member name="M:ForecastConnection.FCommand.#ctor(System.String)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="cmd">Комманда для выполнения на сервере</param>
+        </member>
+        <member name="M:ForecastConnection.FCommand.#ctor(System.String,ForecastConnection.FConnection)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="cmd">Комманда для выполнения на сервере</param>
+            <param name="connection">Строка соединения с сревером</param>
+        </member>
+        <member name="M:ForecastConnection.FCommand.Execute">
+            <summary>
+            Метод выполняет комманду
+            </summary>
+            <returns>Возвращает результат комманды в виде <c>String</c></returns>
+        </member>
+        <member name="P:ForecastConnection.FCommand.Connection">
+            <summary>
+            Поле, для хранения соединения с сервером отчётов
+            </summary>
+        </member>
+        <member name="P:ForecastConnection.FCommand.CommandText">
+            <summary>
+            Поле для хранения комманды
+            </summary>
+        </member>
+        <member name="T:ForecastConnection.FConnection">
+            <summary>
+            <c>FConnection</c> класс для установления свзяи с Сервером Прогнозов
+            </summary>
+        </member>
+        <member name="M:ForecastConnection.FConnection.#ctor">
+            <summary>
+            Конструктор по умолчанию
+            </summary>
+        </member>
+        <member name="M:ForecastConnection.FConnection.#ctor(System.String)">
+            <summary>
+            Конструктор принимает в качестве параметра <paramref name="connectionstring"/>
+            </summary>
+            <param name="connectionstring">строка соединения с сервером прогнозирования</param>
+        </member>
+        <member name="M:ForecastConnection.FConnection.Open">
+            <summary>
+            Метод открывает соединение с сервером
+            </summary>
+        </member>
+        <member name="M:ForecastConnection.FConnection.Close">
+            <summary>
+            Метод закрывает соединение с сервером
+            </summary>
+        </member>
+        <member name="P:ForecastConnection.FConnection.IP">
+            <summary>
+            Поле хранит IP  сервера
+            </summary>
+        </member>
+        <member name="P:ForecastConnection.FConnection.Port">
+            <summary>
+            Поле хранит порт сервера
+            </summary>
+        </member>
+        <member name="P:ForecastConnection.FConnection.Client">
+            <summary>
+            Поле хранит установленное соединение  сервером прогнозов
+            </summary>
+        </member>
+        <member name="P:ForecastConnection.FConnection.Timeout">
+            <summary>
+            Поле хранит время ожидания до завершения запроса
+            </summary>
+        </member>
+    </members>
+</doc>

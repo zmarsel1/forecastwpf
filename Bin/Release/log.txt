@@ -1,0 +1,20 @@
+2011-03-14 11:56:09.3281|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-14 11:56:10.8750|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-14 11:56:11.0625|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-14 11:56:11.2031|ERROR|Core.MainWindow|Ошибка при нажатиий btnSearch_tender.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.btnSearch_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 952
+2011-03-28 16:12:29.0312|ERROR|Core.MainWindow|Ошибка при нажатиий FilterLog.
+System.InvalidOperationException: Последовательность не содержит элементов
+   в System.Linq.Enumerable.Min[TSource](IEnumerable`1 source)
+   в Core.MainWindow.FilterLog_Click(Object sender, RoutedEventArgs e) в C:\Documents and Settings\marsel\Мои документы\Visual Studio 2010\Projects\ForecastWPF\Core\MainWindow.xaml.cs:строка 1150
